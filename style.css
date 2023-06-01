@@ -2,11 +2,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 130%;
   background-image: linear-gradient(rgb(157, 238, 181), rgb(8, 8, 8));
+  overflow: hidden;
+}
+#demo {
+  /* border: 1px solid white; */
+  color: rgb(182, 219, 17);
+  height: 200px;
+  text-align: center;
+  line-height: 40%;
 }
 .wrapper {
   background-color: rgba(1, 1, 1, 0.2);
   width: 550px;
-  margin: 30vh auto;
+  margin: 10vh auto;
   padding: 5px 0px;
   border: 3px solid rgba(1, 1, 1, 0.1);
   box-shadow: 3px 5px 3px rgb(20, 29, 18);
@@ -28,6 +36,7 @@ input {
 }
 .formelement {
   margin-bottom: 10px;
+  display: flex;
 }
 .btn {
   text-align: center;
